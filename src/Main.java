@@ -42,5 +42,8 @@ public class Main {
         System.out.println(studentHuff2.compareChar(studentHuff3));
         System.out.println(studentSly2.compareChar(studentSly1));
         System.out.println(studentGriff1.compare(studentSly3));
+
+
+
     }
 }

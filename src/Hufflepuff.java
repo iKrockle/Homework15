@@ -1,3 +1,4 @@
+
 public class Hufflepuff extends Hogwarts{
     private final int hardWork;
     private final int loyalty;
@@ -14,7 +15,7 @@ public class Hufflepuff extends Hogwarts{
         return hardWork+loyalty+honesty;
     }
 
-    String compareChar(@org.jetbrains.annotations.NotNull Hufflepuff obj){
+    String compareChar(Hufflepuff obj){
         String answ;
 
         if (this.summChar() == obj.summChar()){

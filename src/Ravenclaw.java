@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 public class Ravenclaw extends Hogwarts{
     private final int knowledge;
     private final int wisdom;
@@ -17,7 +19,7 @@ public class Ravenclaw extends Hogwarts{
         return knowledge+wisdom+wit+creation;
     }
 
-    String compareChar(@org.jetbrains.annotations.NotNull Ravenclaw obj){
+    String compareChar(@NotNull Ravenclaw obj){
         String answ;
 
         if (this.summChar() == obj.summChar()){

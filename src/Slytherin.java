@@ -21,7 +21,7 @@ public class Slytherin extends Hogwarts{
         return cunning+determination+ambition+resourcefulness+lustForPower;
     }
 
-    String compareChar(@org.jetbrains.annotations.NotNull Slytherin obj){
+    String compareChar(Slytherin obj){
         String answ;
 
         if (this.summChar() == obj.summChar()){

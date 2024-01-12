@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 public class Griffindor extends Hogwarts{
     private final int nobility;
     private final int honor;
@@ -15,7 +17,7 @@ public class Griffindor extends Hogwarts{
     public int summChar(){
         return nobility+honor+bravery;
     }
-    String compareChar(@org.jetbrains.annotations.NotNull Griffindor obj){
+    String compareChar(@NotNull Griffindor obj){
         String answ;
 
         if (this.summChar() == obj.summChar()){
